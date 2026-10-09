@@ -1,3 +1,4 @@
+import AllProducts from "@/components/AllProducts";
 import Banner from "@/components/Banner";
 import ProductSection from "@/components/ProductSection";
 
@@ -6,6 +7,7 @@ export default function HomePage() {
     <main className="min-h-screen bg-white">
       <Banner />
       <ProductSection />
+      <AllProducts/>
     </main>
   );
 }
