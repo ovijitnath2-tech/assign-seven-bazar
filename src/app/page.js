@@ -1,9 +1,11 @@
-import Image from "next/image";
+import Banner from "@/components/Banner";
+import ProductSection from "@/components/ProductSection";
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <div>
-      bazar dor....
-    </div>
+    <main className="min-h-screen bg-white">
+      <Banner />
+      <ProductSection />
+    </main>
   );
 }
