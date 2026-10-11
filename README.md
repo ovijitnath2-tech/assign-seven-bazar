@@ -30,11 +30,3 @@ A modern web application designed to track, monitor, and compare daily essential
 4. **Bangla Localized UI:** Features complete Bengali typography, custom digit conversion, and localized unit measurements (কেজি, লিটার, ডজন, টি).
 5. **Secure Authentication & Light Theme UI:** Offers seamless user authentication via Better Auth alongside a clean, modern emerald light-mode layout.
 
----
-
-## 📦 Getting Started
-
-### 1. Clone the repository
-```bash
-git clone [https://github.com/your-username/bazardor.git](https://github.com/your-username/bazardor.git)
-cd bazardor
