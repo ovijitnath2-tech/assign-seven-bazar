@@ -2,7 +2,7 @@ import { betterAuth } from "better-auth";
 import { MongoClient } from "mongodb";
 import { mongodbAdapter } from "@better-auth/mongo-adapter";
 
-if (!process.env.MONGODB_URI) {
+if (!process.env.MONGODB_URL) {
   throw new Error("Please add MONGODB_URI to your .env.local file");
 }
 
