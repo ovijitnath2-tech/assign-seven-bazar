@@ -6,13 +6,7 @@ import { useRouter } from "next/navigation";
 import { authClient } from "@/lib/auth-client";
 import { Button, FieldError, Form, Input, Label, TextField } from "@heroui/react";
 
-const { data, error } = await authClient.signUp.email({
-    name: "",
-    email: "", 
-    password: "", 
-     
-    callbackURL: "/", 
-});
+
 
 export default function SignUpPage() {
   const router = useRouter();
