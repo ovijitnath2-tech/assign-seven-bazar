@@ -10,7 +10,7 @@ export default function SignInPage() {
   const [loading, setLoading] = useState(false);
   const [serverError, setServerError] = useState("");
 
-  // Email & Password Sign In Handler
+  
   const handleSubmit = async (e) => {
     e.preventDefault();
     setServerError("");
@@ -38,7 +38,7 @@ export default function SignInPage() {
     }
   };
 
-  // Social Sign In Handler (Google & GitHub)
+  
   const handleSocialSignIn = async (provider) => {
     try {
       await authClient.signIn.social({

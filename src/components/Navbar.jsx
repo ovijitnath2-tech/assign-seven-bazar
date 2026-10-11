@@ -5,7 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useSession, signOut } from "@/lib/auth-client";
 
-// Default categories matching Figma for instant UI rendering
+
 const defaultCategories = [
   { id: "chal", name: "চাল", emoji: "🍚" },
   { id: "dal", name: "ডাল", emoji: "🫘" },

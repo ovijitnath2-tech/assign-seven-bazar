@@ -36,7 +36,7 @@ export default function SignUpPage() {
 
     setLoading(true);
     try {
-      // Better Auth call writes the user to your MongoDB 'fitlog' database
+      
       const { data, error } = await authClient.signUp.email({
         email,
         password,
